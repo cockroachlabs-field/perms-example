@@ -47,6 +47,8 @@ To replicate this structure in CockroachDB, let's create the following tables:
 ```sql
 CREATE DATABASE IF NOT EXISTS perms_example;
 
+USE perms_example;
+
 CREATE TABLE IF NOT EXISTS perms_example.identity_instance
 (
     iid uuid DEFAULT gen_random_uuid() NOT NULL,
