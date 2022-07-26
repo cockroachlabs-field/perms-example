@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS perms_example;
 
+USE perms_example;
+
 /*
 DROP TABLE IF EXISTS perms_example.identity_instance CASCADE;
 DROP TABLE IF EXISTS perms_example.role_instance CASCADE;
